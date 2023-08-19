@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from unittest import TestCase
 
-# Create your views here.
+
+class TestUserModel(TestCase):
+    def test_create_user_successfully(self):
+        self.user = User
